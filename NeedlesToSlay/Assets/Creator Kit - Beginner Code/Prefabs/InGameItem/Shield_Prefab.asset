@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 640b52b005f736744b3aabdfb8f24abb, type: 3}
+  m_Name: Shield_Prefab
+  m_EditorClassIdentifier: 
+  ItemName: 'Sparkle Shield '
+  ItemSprite: {fileID: 21300000, guid: 338fc10d4d8f8f742be440f3bd04ae8a, type: 3}
+  Description: 'The shield out of sparkles to protect from the bossy cactus hits '
+  WorldObjectPrefab: {fileID: -927199367670048503, guid: bc1ad5b79d2a24e40809bb14288e6b80,
+    type: 3}
+  Slot: 4
+  MinimumStrength: 30
+  MinimumAgility: 30
+  MinimumDefense: 30
+  EquippedEffects:
+  - {fileID: 2457501242992136256}
+--- !u!114 &2457501242992136256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08beac6c775d14554b0796a5e37e2e86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Description: 
+  duration: 15
+  DefenseChange: 15
+  EffectSprite: {fileID: 0}
